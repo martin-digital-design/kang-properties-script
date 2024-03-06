@@ -5,6 +5,6 @@ console.log('Hello webflow!');
 const menu = document.getElementById('mobile-menu');
 const line3 = document.getElementById('line-3');
 
-menu.addEventListener('click==', () => {
+menu.addEventListener('click', () => {
     line3.style.width = '300px';
 });
